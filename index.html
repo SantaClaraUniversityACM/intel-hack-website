@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>AWS x INRIX Hack</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- Bootstrap Core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+	<link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+
+	<!-- Theme CSS -->
+	<link href="css/new-age.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/index.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="page-top" style="max-width: 3000px; margin: auto">
+
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand page-scroll no-decor" href="#page-top">AWS x INRIX Hack</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a class="page-scroll no-decor" href="https://bit.ly/aws-hack-24"><b>Sign Up</b></a>
+					</li>
+					<li>
+						<a class="page-scroll no-decor" href="#workshops">Workshops</a>
+					</li>
+					<li>
+						<a class="page-scroll no-decor" href="#schedule">Schedule</a>
+					</li>
+					<li>
+						<a class="page-scroll no-decor" href="#FAQ">FAQ</a>
+					<li>
+						<a class="page-scroll no-decor" href="#connect">Connect</a>
+					</li>
+					<li>
+						<a target="_blank" class="no-decor" href="https://www.scuacm.com/">SCUACM</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	<!-- I ran into issues of class "hero" styling from index.css not applying on the server, so I declared all the styling directly in the .html
+		otherwise, I would just use <div id="home" class="hero" style="max-height: 1080px"> -->
+	<div id="home" style="position: relative; width: 100%; height: 80%; overflow: hidden;">
+		<video autoplay muted loop id="myVideo"
+			style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+			<source src="img/hero2024ani.mp4" type="video/mp4">
+		</video>
+		<div class="container" style="display: flex; justify-content: center;">
+			<a href="https://bit.ly/aws-hack-24"
+				class="btn btn-outline btn-xl page-scroll inline-button no-decor fixed-height-btn">Sign Up
+				Here!</a>
+		</div>
+	</div>
+
+	<section id="about" class="about">
+		<div class="container">
+			<div class="col-sm-12 text-center">
+				<div class="section-heading">
+					<h2> Welcome to AWS x INRIX Hack </h2>
+					<h3> SCU's First Ever AI Hackathon, November 16th-17th, 2024 </h3>
+					<p class="text-muted">Want to make your own ChatGPT? Take advantage of AI technology used by
+						real professionals to make a difference!</p>
+					<p>Check out the Hack Pack (past slides, resoruces, etc) at <a href="https://bit.ly/awshackpack"
+							target="_blank">https://bit.ly/awshackpack</a></p>
+					<div style="display: flex; justify-content: center; margin-top: 2em;">
+						<img src="img/Responsible AI_logo.png" style="width: 200px;">
+						<h3 style="display: flex; align-self: center; margin-left: 1em;">Supported by SCU's&nbsp;<a
+								href="https://www.linkedin.com/company/scu-rai/posts/?feedView=all"
+								target="_blank">Responsible AI Program</a></h3>
+					</div>
+
+					<!-- <h3> Interested in an INRIX internship? Apply <a href="https://app.jobvite.com/j?cj=okXnlfwJ&s=INRIXHack2022" target="_blank">here</a></h3>  -->
+				</div>
+			</div>
+			<!-- <div class="col-sm-12 text-center">
+					<b> Top 3 teams get final round internship interviews with INRIX </b>
+					<p class="text-muted"> But all participants will be evaluated for internship opportunities </p>
+					<hr>
+				</div> -->
+		</div>
+	</section>
+	<hr>
+
+
+	<section id="workshops" style="padding-top: 0;">
+		<div class="text-center">
+			<h2>AWS Workshop Schedule</h2>
+			<p>We have AWS engineers coming in person to teach you about the tools you'll have access to for this
+				hackathon!</p>
+			<p>Looking for past slides, git repos, and tutorials? Check out our resources doc <a
+					href="https://docs.google.com/document/d/1jUhSpCXhXcrN7Nok9lMPthOApduAxVsokjTN7q-Ivwk/edit?usp=sharing"
+					target="_blank">here</a>
+			</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+					<h2>This Week's Workshop</h2>
+				</div>
+				<div id="this-week-workshop"
+					style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap;">
+					<!-- Added via JS -->
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<h2 class="text-center">Future Workshops</h2>
+				<div id="future-workshops">
+					<!-- Added via JS -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<hr>
+	<section id="sponsors" class="sponsors bg-primary text-center">
+		<div class="container">
+			<div class="row" style="display: flex; justify-content: space-between; align-items: top; flex-wrap: wrap;">
+				<div class="col-md-6" style="padding-bottom: 6rem;">
+					<h2 class="section-heading">About Amazon</h2>
+					<br>
+					<p>We're positive you've used Amazon before, whether to buy that last minute thing or because
+						you
+						don't want to leave the comfort of your own home, but have you used AWS? AWS is arguably THE
+						largest cloud computing platform in the world with thousands of companies using their
+						services.
+						They offer a wide range of services from databases and storage to raw compute power, but
+						they
+						are offering YOU their latest, bleeding edge AI technology. Catch our AWS workshops with in
+						person speakers to learn how to use their services!
+					</p>
+					<hr>
+					<hr>
+					<div class="text-center">
+						<a href="https://aws.amazon.com/" target="_blank"
+							class="btn-special-text btn-special btn-xl page-scroll inline-button"
+							style="text-decoration:none">AWS Home Page</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2 class="section-heading">About INRIX</h2>
+					<br>
+					<p>INRIX is a global leader in mobility analytics and connected car services. We help cities and
+						businesses use big data to identify and solve transportation problems, making the world safer,
+						happier and greener. Our partners are automakers, governments, retailers, insurance agencies,
+						advertisers and dozens of other industries that can benefit from understanding how people and
+						vehicles move.</p>
+					<hr>
+					<hr>
+					<div class="text-center">
+						<a href="https://INRIX.com" target="_blank"
+							class="btn-special-text btn-special btn-xl page-scroll inline-button"
+							style="text-decoration:none">INRIX Home Page</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<section id="schedule" class="about">
+		<div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="container-fluid">
+						<div class="row text-center">
+							<h2>Schedule</h2>
+							<h4>Events in PST</h4>
+						</div>
+						<div class="row">
+							<div class="col-md-6 text-center">
+								<div class="text-center">
+									<h3>Day One: November 16th 2024</h4>
+								</div>
+
+								<table>
+									<tr>
+										<td>9:00 AM</td>
+										<td>Check-In & Networking Breakfast (SCDI Courtyard) 🍳✅</td>
+									</tr>
+									<tr>
+										<td>10:00 AM</td>
+										<td>Opening Keynote 📝</td>
+									</tr>
+									<tr>
+										<td>10:45 AM</td>
+										<td>Team Formation 🤝 (SCDI Courtyard -> Heafey Atrium)</td>
+									</tr>
+									<tr>
+										<td>11:00 AM</td>
+										<td>Hacking Begins! 💻</td>
+									</tr>
+									<tr>
+										<td>11:30 AM</td>
+										<td>Git It All Together 💻 (Bergin 116)</td>
+									</tr>
+									<tr>
+										<td>12:30 PM</td>
+										<td>AWSome Sauce: Master AWS🔥 (Bergin 116)</td>
+									</tr>
+									<tr>
+										<td>1:30 PM</td>
+										<td>Lunch Break! 🥪 (Heafey: Atrium)</td>
+									</tr>
+									<tr>
+										<td>2:45 PM</td>
+										<td>All About API's and a Flask Frenzy (Python) 💬 (Bergin 116)</td>
+									</tr>
+									<tr>
+										<td>4:00 PM</td>
+										<td>Bringing Your Website to Life with React.js ⚛️ (Bergin 116)</td>
+									</tr>
+									<tr>
+										<td>5:00 PM</td>
+										<td>Data Science Decoded: ML and more! 🤖 (Bergin 116)</td>
+									</tr>
+									<tr>
+										<td>6:30 PM</td>
+										<td>Dinner break 🍕 (Heafey: Atrium)</td>
+									</tr>
+									<tr>
+										<td>8:30 PM</td>
+										<td>Connecting Everything Together: Hosting + Calling APIs 🧩 (Bergin 116)</td>
+									</tr>
+									<tr>
+										<td>10:00 PM</td>
+										<td>Mini Rave 🎧 (Heafey Atrium)</td>
+									</tr>
+								</table>
+							</div>
+							<div class="col-md-6 text-center">
+								<div class="text-center">
+									<h3>Day Two: November 17th 2023</h4>
+								</div>
+								<table>
+									<tr>
+										<td>12:00 AM</td>
+										<td>Activity Break: Midnight Sundaes 🍦🍫🥄 (Heafey Atrium)</td>
+									</tr>
+									<tr>
+										<td>8:30 AM</td>
+										<td>Devpost Submission Q&A ❓ (Bergin 116)</td>
+									</tr>
+									<tr>
+										<td>9:00 AM</td>
+										<td><a target="_blank"
+												href="https://aws-inrix-hack-2024.devpost.com/">DevPost</a>
+											Submissions
+											Due! 📝</td>
+									</tr>
+									<tr>
+										<td>9:15 AM</td>
+										<td>Demos and Judging Begin! 🤔 (Heafey Atrium)</td>
+									</tr>
+									<tr>
+										<td>10:45 AM</td>
+										<td>Finalist Presentations 🎤 (Bergin 116)</td>
+									</tr>
+									<tr>
+										<td>11:45 AM</td>
+										<td>Winners Announced! 🤑🏆💯 (Heafey Atrium)</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<section id="themes" class="sponsors bg-primary text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="section-heading">Prizes</h2>
+					<h3>3 prizes, 2 tracks, 1 hackathon</h3>
+					<hr />
+					<h3><b>Main Track</b>: AWS-Powered AI for Scalable Solutions</h3>
+					<p>Create a full product that could be sold to companies with potential costs and benefits accounted
+						for using AWS services. Must use AWS services in some way. all types of projects are encouraged!
+					</p>
+					<p>1st Place: $1000 | 2nd Place: $500 | 3rd Place: $250 | Graduate: $500</p>
+					<hr />
+					<h3><b>Side Track</b>: Enhance transportation safety, efficiency, and sustainability</h3>
+					<p>Create a solution to a problem, air, land, and/or sea, that could say money, lives, or the
+						environment. Use of AWS tools preferred but not required. More focused for teams that would
+						prefer a starting topic
+					</p>
+					<p>1st Place: $750 | 2nd Place: $250 | Graduate: $250</p>
+					<hr />
+					<h3><b>Additional Prize</b>: Best Representation of Responsible AI</h3>
+					<p>In line with SCU's AI vision, create a project that embodies the ethical and responsible use of
+						AI. All projects are considered for this prize
+					</p>
+					<p>Prize: $500</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<section id="FAQ" class="about">
+		<div class="text-center">
+			<h2>Frequently Asked Questions</h2>
+		</div>
+		<div class="container">
+			<div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-item">
+						<h3>What's a Hackathon?</h3>
+						<p class="text-muted">A hackathon is an opportunity when you and your team come
+							together to construct a cool and inventive project in 24 hours!</p>
+						<br />
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-item">
+						<h3>How big can my team be?</h3>
+						<p class="text-muted">We require all teams to be comprised of 2-6 people. This is a
+							great way for you to work with others, and learn about the design process.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-item">
+						<h3>What if I don't have a team?</h3>
+						<p class="text-muted">No problem! We will help connect you with other students who
+							are also looking for teammates before and during the event.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-item">
+						<h3>Who can attend?</h3>
+						<p class="text-muted">While this event is targeted toward CS/Coen majors, all Undergrad and
+							Graduate students are welcome.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-item">
+						<h3>I've never been to a Hackathon!</h3>
+						<p class="text-muted">No worries! We have a team of mentors to help you along the
+							way. Previous project experience will be helpful.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-item">
+						<h3>Any other questions?</h3>
+						<p class="text-muted">Feel free to email us at <a href="mailto:acm@scu.edu">acm@scu.edu</a>
+							if you have any questions or
+							concerns!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<section id="recap" class="recap">
+		<div class="container">
+			<h1>INRIX Hack Recap!</h1>
+			<h3>2023 Winners</h3>
+			<h4>We've hosting INRIX Hack before, but this time we are bringing in Amazon and adding AI to the projects!
+				Feel free to take a closer look at what people built last year on <a
+					href="https://inrix-hack-2023.devpost.com/" target="_blank">last year's Devpost contest</a>.</h4>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner text-center">
+					<div class="item active">
+						<a href="https://devpost.com/software/capital-insights" target="_blank"><img
+								src="img/winners-2023/ugrd-1st.jpg" alt="Capital Insights"></a>
+						<h4>Undergraduate 1st Place: <strong>Capital Insights</strong></h4>
+						<span>Created by Luke Ponssen, Jonathan Preiss, Riley Heike</span>
+					</div>
+					<div class="item">
+						<a href="https://devpost.com/software/insight-qk4gx7" target="_blank"><img
+								src="img/winners-2023/ugrd-2nd.jpg" alt="Insight"></a>
+						<h4>Undergraduate 2nd Place: <strong>Insight</strong></h4>
+						<span>Created by Tiffany Nguyen, Lindsey Leong, Kara Barrese, Pragnya Vijayan, Irene Chang,
+							Maddie Follosco</span>
+					</div>
+					<div class="item">
+						<a href="https://devpost.com/software/app-h2mex7" target="_blank"><img
+								src="img/winners-2023/ugrd-3rd.jpg" alt="Parking, Bus, & Jam (PB&J)"></a>
+						<h4>Undergraduate 3rd Place: <strong>Park, Bus, & Jam (PB&J)</strong></h4>
+						<span>Created by Andrew Collins, Lucas Jablon, Isaac Orais, Johan Kou, Leo Chen, Riley
+							Wong</span>
+					</div>
+					<div class="item">
+						<a href="https://devpost.com/software/talk-data-to-me" target="_blank"><img
+								src="img/winners-2023/grad-1st.jpg" alt="Talk Data To Me"></a>
+						<h4>Graduate 1st Place: <strong>Talk Data To Me</strong></h4>
+						<span>Created by Billy Zhang, Shamli Ingole, Inchara Raveendra, Xiaoming Huang</span>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+			<h1>Previous INRIX Hacks</h1>
+			<ul style="font-size: 16px; line-height: 175%;">
+				<li><a href="https://inrix-hack-2022.devpost.com/project-gallery" target="_blank">2022 Devpost</a></li>
+				<li><a href="https://inrix-hack.devpost.com/project-gallery" target="_blank">2021 Devpost</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Connect with us footer -->
+	<section id="connect" class="sponsors bg-primary text-center">
+		<section class="bg-primary footer">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="section-heading">Connect with </h2>
+					<a href="http://scuacm.com" target="_blank"><img src="img/logos/logo_acm_scu_white.png"
+							style="width: min(650px, 100%)"></a>
+				</div>
+				<br />
+				<br />
+				<br />
+				<div class="logos text-center">
+					<a href="https://discord.gg/G242hXD" target="_blank"><img src="img/logos/logo-discord.png"></a>
+					<a href="https://scuacm.slack.com" target="_blank"><img src="img/logos/logo-slack.png"></a>
+					<a href="https://www.instagram.com/scu_acm/" target="_blank"><img
+							src="img/logos/logo-instagram.png"></a>
+					<a href="mailto:acm@scu.edu" target="_top"><img src="img/logos/logo-email.png"></a>
+					<a href="https://github.com/scuacm" target="_blank"><img src="img/logos/logo-github.png"></a>
+					<a href="https://www.linkedin.com/company/scuacm/" target="_blank"><img
+							src="img/logos/logo-linkedin.png"></a>
+				</div>
+			</div>
+		</section>
+	</section>
+
+</body>
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="js/new-age.min.js"></script>
+
+<!-- Events JavaScript -->
+<script src="js/events.js"></script>
+
+
+
+</html>
