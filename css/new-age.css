@@ -87,26 +87,26 @@ p {
 }
 .btn-outline {
   color: white;
-  background-color: #002d72;
+  background-color: #24116b;
   /*border-color: #307682;
   border: 1px solid;*/
 }
 .btn-special{
   background-color: white;
-  color: #002d72;
+  color: #24116b;
 }
 .btn-special-text{
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
-  color: #002d72;
+  color: #24116b;
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #002d72;
+  color: #5400bb;
   background-color: white;
   /*border-color: #002d72;*/
 }
@@ -116,6 +116,8 @@ p {
   letter-spacing: 2px;
   border-radius: 300px;
   color: white;
+  background-color: #5400bb;
+  border: 1px solid #00cba4;
 }
 .btn-xl {
   padding: 15px 45px;
@@ -130,7 +132,7 @@ p {
   background: #232a35;
 }
 ::selection {
-  color: red;
+  color: #00cba4;
   /*background-color: #fff;*/
   text-shadow: none;
 }
