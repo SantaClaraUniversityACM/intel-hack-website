@@ -4,19 +4,19 @@ const timer = document.querySelector("span.timer");
 const header = document.querySelector("h2.timerHeader");
 
 function updateCountdown() {
-    const countdown = new Date("May 17, 2025 16:00:00Z").getTime() - new Date().getTime();
+    const countdown = new Date("2025-05-17T16:00:00Z").getTime() - new Date().getTime();
     if (countdown < 0) {
-        const duration = new Date("May 18, 2025 03:00:00Z").getTime() - new Date().getTime();
+        const duration = new Date("2025-05-18T03:00:00Z").getTime() - new Date().getTime();
         if (duration < 0) {
             timer.innerHTML = "Time's up!";
         }
         else {
             header.innerHTML = "Hackathon in session!";
-            timer.innerHTML = generateTime(duration);
+            timer.innerHTML = generateTime(Number(duration));
         }
     }
     else {
-        timer.innerHTML = generateTime(countdown);
+        timer.innerHTML = generateTime(Number(countdown));
     }
 }
 
