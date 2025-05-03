@@ -18,6 +18,19 @@ p.text-muted b {
   color: white;
 }
 
+span.timer {
+	font-weight: bolder;
+	font-size:12.0vw;
+	width: 100%;
+	background-image: linear-gradient(#00cba4, #5400bb);
+	color: transparent;
+	background-clip: text;
+}
+
+section.timer {
+	padding-top: 0;
+}
+
 /** HERO **/
 
 /* .hero {
