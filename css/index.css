@@ -20,15 +20,17 @@ p.text-muted b {
 
 span.timer {
 	font-weight: bolder;
-	font-size:12.0vw;
+	font-size: 10.5vw;
 	width: 100%;
 	background-image: linear-gradient(#00cba4, #5400bb);
 	color: transparent;
 	background-clip: text;
+	justify-content: center;
 }
 
 section.timer {
 	padding-top: 0;
+	justify-items: center;
 }
 
 /** HERO **/
