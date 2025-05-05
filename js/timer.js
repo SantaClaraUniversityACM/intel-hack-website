@@ -41,3 +41,5 @@ function generateTime(ms) {
     text += secs;
     return text;
 }
+
+document.addEventListener("DOMContentLoaded", updateCountdown);
