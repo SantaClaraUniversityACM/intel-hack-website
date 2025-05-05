@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       location: "SCDI 2302",
       description:
         "The hackathon countdown is on! Join us for our Intel Hack Prep Workshop this Thursday, May 8th, at 7:00 pm in SCDI 2302, where you'll learn how to access and leverage Intel Tiber resources and get all the insider tips you need for the weekend. Don't miss this last chance to prep, ask questions, and get set to build something incredible!",
-      image: "../img/AWS X INRIX HACK PREP.png",
+      image: "../img/intelprep.png",
       week: 18,
     },
     {
