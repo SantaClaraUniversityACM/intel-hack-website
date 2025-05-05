@@ -25,7 +25,7 @@ function generateTime(ms) {
     let hrs = Math.floor(ms % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
     let mins = Math.floor(ms % (1000 * 60 * 60 * 24) % (1000 * 60 * 60) / (1000 * 60));
     let secs = Math.floor(ms % (1000 * 60 * 60 * 24) % (1000 * 60 * 60) % (1000 * 60) / 1000);
-    console.log(ms, days, hrs, mins, secs);
+    // console.log(ms, days, hrs, mins, secs);
     let text = "";
     if (days < 10)
         text += "0";
