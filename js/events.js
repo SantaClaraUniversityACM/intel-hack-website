@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       location: "Kenna 216",
       description:
         "The hackathon countdown is on! Join us for our Hackathon Prep Workshop this Thursday, Nov. 14, at 7:15 pm in Kenna 216, where you'll learn how to access and leverage AWS resources and get all the insider tips you need for the weekend. Don't miss this last chance to prep, ask questions, and get set to build something incredible!",
-      image: "../img/AWS X INRIX HACK PREP.png",
+      image: "../img/workshops/speaker.png",
       week: 19,
     },
     {
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       location: "SCDI 2302",
       description:
         "The hackathon countdown is on! Join us for our Hackathon Prep Workshop this Thursday, Nov. 14, at 7:15 pm in Kenna 216, where you'll learn how to access and leverage AWS resources and get all the insider tips you need for the weekend. Don't miss this last chance to prep, ask questions, and get set to build something incredible!",
-      image: "../img/AWS X INRIX HACK PREP.png",
+      image: "../img/workshops/officehrs.png",
       week: 19,
     },
   ];
