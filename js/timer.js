@@ -8,7 +8,9 @@ function updateCountdown() {
     if (countdown < 0) {
         const duration = new Date("2025-05-18T03:00:00Z").getTime() - new Date().getTime();
         if (duration < 0) {
-            timer.innerHTML = "Time's up!";
+            header.innerHTML = "Judging in session!";
+            const judgingTime = new Date("2025-0524T19:00:00Z").getTime() - new Date().getTime();
+            timer.innerHTML = generateTime(Number(judgingTime));
         }
         else {
             header.innerHTML = "Hackathon in session!";
